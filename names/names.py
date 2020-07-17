@@ -54,13 +54,18 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # # runtime: 19.012087106704712 seconds
+# # complexity: O(n^2) 
 # # Replace the nested for loops below with your improvements
 # for name_1 in names_1:
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
+
 # # runtime: 0.2648472785949707 seconds
+# # complexity: 
+# Worst case: O(n^2)
+# Avarage: O(n log n)
 # bstree = BSTNode()
 # for name in names_1:
 #     bstree.insert(name)
@@ -74,6 +79,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did not write yourself.
 
+# complexity: O(n)
 # runtime: 0.01598978042602539 seconds
 names = {}
 for name in names_1:
